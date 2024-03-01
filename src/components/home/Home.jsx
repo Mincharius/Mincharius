@@ -1,6 +1,7 @@
 import Social from "./Social"
 import Data from "./Data"
 import "./home.css"
+import ScrollDown from "./ScrollDown"
 
 import React from 'react'
 
@@ -15,6 +16,7 @@ const Home = () => {
 
                 <Data/>
             </div>
+            <ScrollDown/>
         </div>
     </section>
   )
